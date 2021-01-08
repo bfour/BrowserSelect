@@ -101,6 +101,7 @@
     <Compile Include="VButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="WindowUtils.cs" />
     <EmbeddedResource Include="BrowserUC.resx">
       <DependentUpon>BrowserUC.cs</DependentUpon>
     </EmbeddedResource>
