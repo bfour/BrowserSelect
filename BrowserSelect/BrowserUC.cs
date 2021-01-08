@@ -15,7 +15,10 @@ namespace BrowserSelect {
 
             this.browser = b;
 
-            name.Text = b.name;
+            name.Text = b.name
+                .Replace("Google Chrome", "")
+                .Replace("(", "")
+                .Replace(")", "");
             shortcuts.Text = "( " + Convert.ToString(index+1) + "," + String.Join(",", b.shortcuts) + " )";
             shortcuts.ForeColor = Color.FromKnownColor(KnownColor.GrayText);
             icon.Image = b.string2Icon();//.ToBitmap();
