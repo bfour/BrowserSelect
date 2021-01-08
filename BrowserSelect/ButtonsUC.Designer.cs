@@ -35,7 +35,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "ButtonsUC";
-            this.Size = new System.Drawing.Size(25, 180);
+            this.Size = new System.Drawing.Size(25, 152);
             this.ResumeLayout(false);
 
         }

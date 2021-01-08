@@ -44,8 +44,8 @@ namespace BrowserSelect
             btn.Text = text;
             btn.Anchor = AnchorStyles.Right;
             btn.Width = 20;
-            btn.Height = 75;
-            btn.Top = index * 80;
+            btn.Height = 61;
+            btn.Top = index * 66;
             //btn.Left = this.Width - 35;
             //btn.Left = btn_help.Right - btn.Width;
             btn.Left = 5;

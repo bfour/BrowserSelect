@@ -34,33 +34,33 @@
             // 
             this.icon.Location = new System.Drawing.Point(0, 0);
             this.icon.Name = "icon";
-            this.icon.Size = new System.Drawing.Size(128, 128);
+            this.icon.Size = new System.Drawing.Size(100, 100);
             this.icon.TabIndex = 0;
             this.icon.TabStop = false;
             // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(3, 131);
+            this.name.Location = new System.Drawing.Point(3, 103);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(122, 18);
+            this.name.Size = new System.Drawing.Size(94, 18);
             this.name.TabIndex = 1;
             this.name.Text = "label1";
             this.name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // shortcuts
             // 
-            this.shortcuts.Location = new System.Drawing.Point(3, 147);
+            this.shortcuts.Location = new System.Drawing.Point(3, 119);
             this.shortcuts.Name = "shortcuts";
-            this.shortcuts.Size = new System.Drawing.Size(122, 13);
+            this.shortcuts.Size = new System.Drawing.Size(94, 13);
             this.shortcuts.TabIndex = 2;
             this.shortcuts.Text = "label1";
-            this.shortcuts.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.shortcuts.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(0, 161);
+            this.button1.Location = new System.Drawing.Point(0, 133);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 20);
+            this.button1.Size = new System.Drawing.Size(97, 20);
             this.button1.TabIndex = 3;
             this.button1.Text = "Always";
             this.button1.UseVisualStyleBackColor = true;
@@ -76,7 +76,7 @@
             this.Controls.Add(this.name);
             this.Controls.Add(this.icon);
             this.Name = "BrowserUC";
-            this.Size = new System.Drawing.Size(131, 184);
+            this.Size = new System.Drawing.Size(103, 156);
             ((System.ComponentModel.ISupportInitialize)(this.icon)).EndInit();
             this.ResumeLayout(false);
 

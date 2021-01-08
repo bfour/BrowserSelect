@@ -45,7 +45,7 @@ namespace BrowserSelect
             ResumeLayout();
             buc.Left = i * width;
             btn_help.Left = i * width;
-            btn_help.Top = buc.Height - btn_help.Height;
+            btn_help.Top = buc.Height - btn_help.Height + 14;
             // this.Width = i * 128 + 20 + 20;
         }
 
