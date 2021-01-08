@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using BrowserSelect.Properties;
 using SHDocVw;
@@ -302,19 +301,6 @@ namespace BrowserSelect
                 "New Update Available!\nCurrent Version: {1}\nLast Version: {0}" +
                 "\nto Update download and install the new version from project's github.",
                 lv, cv));
-        }
-
-        protected override void OnHandleCreated(EventArgs e)
-        {
-            // Use e.g. Color.FromArgb(128, Color.Lime) for a 50% opacity green tint.
-            WindowUtils.EnableAcrylic(this, Color.Transparent);
-
-            base.OnHandleCreated(e);
-        }
-
-        protected override void OnPaintBackground(PaintEventArgs e)
-        {
-            e.Graphics.Clear(Color.Transparent);
         }
     }
 }
