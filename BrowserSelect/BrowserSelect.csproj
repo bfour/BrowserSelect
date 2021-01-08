@@ -101,7 +101,6 @@
     <Compile Include="VButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="WindowUtils.cs" />
     <EmbeddedResource Include="BrowserUC.resx">
       <DependentUpon>BrowserUC.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +150,11 @@
   <ItemGroup>
     <Content Include="bs.ico" />
     <Content Include="License.txt" />
+    <None Include="Resources\check-all-16.png" />
+    <None Include="Resources\check-all.png" />
+    <None Include="Resources\help-circle-outline.png" />
+    <None Include="Resources\cog-outline.png" />
+    <None Include="Resources\information-outline.png" />
     <None Include="Resources\new-icon.png" />
     <None Include="Resources\bitcoin.png" />
     <None Include="Resources\Button-help-icon.png" />
