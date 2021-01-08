@@ -141,7 +141,7 @@ namespace BrowserSelect
             ResumeLayout();
             buc.Left = i * width;
             btn_help.Left = i * width;
-            btn_help.Top = buc.Height - btn_help.Height + 14;
+            btn_help.Top = buc.Height - btn_help.Height + 3;
             // this.Width = i * 128 + 20 + 20;
         }
 
@@ -164,6 +164,7 @@ namespace BrowserSelect
             }
             // add vertical buttons to right of form
             buc = new ButtonsUC(this);
+            buc.Top = 3;
             this.Controls.Add(buc);
             this.updateBrowsers();
             center_me();

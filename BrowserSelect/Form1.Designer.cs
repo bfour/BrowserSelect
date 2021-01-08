@@ -31,7 +31,7 @@
             // btn_help
             // 
             this.btn_help.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_help.BackgroundImage = global::BrowserSelect.Properties.Resources.Button_help_icon;
+            this.btn_help.BackgroundImage = global::BrowserSelect.Properties.Resources.help_circle_outline;
             this.btn_help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_help.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_help.FlatAppearance.BorderSize = 0;

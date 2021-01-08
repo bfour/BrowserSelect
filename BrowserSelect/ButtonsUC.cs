@@ -41,16 +41,30 @@ namespace BrowserSelect
             // code for vertical buttons on the right, they are custom controls
             // without support for form designer, so we initiate them in code
             var btn = new VButton();
-            btn.Text = text;
             btn.Anchor = AnchorStyles.Right;
             btn.Width = 20;
-            btn.Height = 61;
-            btn.Top = index * 66;
+            btn.Height = 22;
+            btn.Top = index * 26;
             //btn.Left = this.Width - 35;
             //btn.Left = btn_help.Right - btn.Width;
-            btn.Left = 5;
             Controls.Add(btn);
             btn.Click += evt;
+
+            btn.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            if (text.Equals("About"))
+                btn.BackgroundImage = global::BrowserSelect.Properties.Resources.information_outline;
+            else if (text.Equals("Settings"))
+                btn.BackgroundImage = global::BrowserSelect.Properties.Resources.cog_outline;
+            else
+                btn.Text = text;
+            btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            btn.FlatAppearance.BorderSize = 0;
+            btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            //btn.Location = new System.Drawing.Point(97, 155);
+            btn.Size = new System.Drawing.Size(25, 25);
+            btn.TabIndex = 0;
+            btn.UseVisualStyleBackColor = true;
 
             vbtn.Add(btn);
         }
